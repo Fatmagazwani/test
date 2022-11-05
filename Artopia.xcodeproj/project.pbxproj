@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4C3A3D22914011500EC0B82 /* Done.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3A3D12914011500EC0B82 /* Done.swift */; };
+		A4C3A3D42914045900EC0B82 /* payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3A3D32914045900EC0B82 /* payment.swift */; };
+		AD0753C0291381B3000B6DC4 /* ArtopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753BF291381B3000B6DC4 /* ArtopiaApp.swift */; };
+		AD0753C2291381B3000B6DC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753C1291381B3000B6DC4 /* ContentView.swift */; };
+		AD0753C4291381B4000B6DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0753C3291381B4000B6DC4 /* Assets.xcassets */; };
+		AD0753C7291381B4000B6DC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0753C6291381B4000B6DC4 /* Preview Assets.xcassets */; };
+		AD0753CE291381FF000B6DC4 /* PintrestGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753CD291381FF000B6DC4 /* PintrestGrid.swift */; };
+		AD0753D029138290000B6DC4 /* BuyerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753CF29138290000B6DC4 /* BuyerSettings.swift */; };
+		AD0753D2291382A8000B6DC4 /* ArtistSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753D1291382A8000B6DC4 /* ArtistSettings.swift */; };
+		AD0753D4291382B7000B6DC4 /* BuyerOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753D3291382B7000B6DC4 /* BuyerOrders.swift */; };
+		AD0753D6291382CC000B6DC4 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753D5291382CC000B6DC4 /* OrderList.swift */; };
+		AD0753D8291382DB000B6DC4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753D7291382DB000B6DC4 /* Address.swift */; };
+		AD0753DA291382E8000B6DC4 /* AddressPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753D9291382E8000B6DC4 /* AddressPreviews.swift */; };
+		AD0753DC291382F9000B6DC4 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753DB291382F9000B6DC4 /* AddressModel.swift */; };
+		AD0753DE29138307000B6DC4 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753DD29138307000B6DC4 /* PrivacyPolicy.swift */; };
+		AD0753E029138314000B6DC4 /* LogOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753DF29138314000B6DC4 /* LogOut.swift */; };
+		AD0753E229138325000B6DC4 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753E129138325000B6DC4 /* ContactUs.swift */; };
+		AD0753E829138563000B6DC4 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753E729138563000B6DC4 /* BackButton.swift */; };
+		AD0753EA2913954F000B6DC4 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753E92913954F000B6DC4 /* Tabs.swift */; };
+		AD0753EC29139CDD000B6DC4 /* ArtistorVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753EB29139CDD000B6DC4 /* ArtistorVisitor.swift */; };
+		AD0753F029139DEF000B6DC4 /* ForEdArtistPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753EF29139DEF000B6DC4 /* ForEdArtistPage.swift */; };
+		AD0753F229139EB1000B6DC4 /* ContentViewforArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753F129139EB1000B6DC4 /* ContentViewforArtist.swift */; };
+		AD0753F429139FB0000B6DC4 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753F329139FB0000B6DC4 /* Logo.swift */; };
+		AD0753F629139FED000B6DC4 /* ArtistProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753F529139FED000B6DC4 /* ArtistProfile.swift */; };
+		AD0753F82913A1F2000B6DC4 /* ArtisttingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753F72913A1F2000B6DC4 /* ArtisttingMenu.swift */; };
+		AD0753FB2913A7F3000B6DC4 /* LogOutForBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753FA2913A7F3000B6DC4 /* LogOutForBuyer.swift */; };
+		AD0753FD2913A900000B6DC4 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753FC2913A900000B6DC4 /* SignInWithApple.swift */; };
+		AD0753FF2913A94A000B6DC4 /* bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0753FE2913A94A000B6DC4 /* bg.swift */; };
+		AD0754012913AD32000B6DC4 /* Wishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0754002913AD32000B6DC4 /* Wishlist.swift */; };
+		AD0754032913AD4E000B6DC4 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0754022913AD4E000B6DC4 /* Cart.swift */; };
+		AD0754072913C91E000B6DC4 /* PaintingDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0754062913C91E000B6DC4 /* PaintingDescription.swift */; };
+		AD0754092913D450000B6DC4 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0754082913D450000B6DC4 /* Checkout.swift */; };
+		AD07540B2913DD51000B6DC4 /* Addtocart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07540A2913DD51000B6DC4 /* Addtocart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4C3A3D12914011500EC0B82 /* Done.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Done.swift; sourceTree = "<group>"; };
+		A4C3A3D32914045900EC0B82 /* payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payment.swift; sourceTree = "<group>"; };
+		AD0753BC291381B3000B6DC4 /* Artopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0753BF291381B3000B6DC4 /* ArtopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtopiaApp.swift; sourceTree = "<group>"; };
+		AD0753C1291381B3000B6DC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD0753C3291381B4000B6DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD0753C6291381B4000B6DC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD0753CD291381FF000B6DC4 /* PintrestGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintrestGrid.swift; sourceTree = "<group>"; };
+		AD0753CF29138290000B6DC4 /* BuyerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerSettings.swift; sourceTree = "<group>"; };
+		AD0753D1291382A8000B6DC4 /* ArtistSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSettings.swift; sourceTree = "<group>"; };
+		AD0753D3291382B7000B6DC4 /* BuyerOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerOrders.swift; sourceTree = "<group>"; };
+		AD0753D5291382CC000B6DC4 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
+		AD0753D7291382DB000B6DC4 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		AD0753D9291382E8000B6DC4 /* AddressPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressPreviews.swift; sourceTree = "<group>"; };
+		AD0753DB291382F9000B6DC4 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		AD0753DD29138307000B6DC4 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+		AD0753DF29138314000B6DC4 /* LogOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOut.swift; sourceTree = "<group>"; };
+		AD0753E129138325000B6DC4 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
+		AD0753E729138563000B6DC4 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		AD0753E92913954F000B6DC4 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		AD0753EB29139CDD000B6DC4 /* ArtistorVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistorVisitor.swift; sourceTree = "<group>"; };
+		AD0753EF29139DEF000B6DC4 /* ForEdArtistPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEdArtistPage.swift; sourceTree = "<group>"; };
+		AD0753F129139EB1000B6DC4 /* ContentViewforArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewforArtist.swift; sourceTree = "<group>"; };
+		AD0753F329139FB0000B6DC4 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		AD0753F529139FED000B6DC4 /* ArtistProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfile.swift; sourceTree = "<group>"; };
+		AD0753F72913A1F2000B6DC4 /* ArtisttingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisttingMenu.swift; sourceTree = "<group>"; };
+		AD0753FA2913A7F3000B6DC4 /* LogOutForBuyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutForBuyer.swift; sourceTree = "<group>"; };
+		AD0753FC2913A900000B6DC4 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		AD0753FE2913A94A000B6DC4 /* bg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bg.swift; sourceTree = "<group>"; };
+		AD0754002913AD32000B6DC4 /* Wishlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishlist.swift; sourceTree = "<group>"; };
+		AD0754022913AD4E000B6DC4 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		AD0754062913C91E000B6DC4 /* PaintingDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingDescription.swift; sourceTree = "<group>"; };
+		AD0754082913D450000B6DC4 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
+		AD07540A2913DD51000B6DC4 /* Addtocart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtocart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD0753B9291381B3000B6DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0753B3291381B3000B6DC4 = {
+			isa = PBXGroup;
+			children = (
+				AD07540A2913DD51000B6DC4 /* Addtocart.swift */,
+				AD0753FE2913A94A000B6DC4 /* bg.swift */,
+				AD0753BE291381B3000B6DC4 /* Artopia */,
+				AD0753BD291381B3000B6DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD0753BD291381B3000B6DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD0753BC291381B3000B6DC4 /* Artopia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD0753BE291381B3000B6DC4 /* Artopia */ = {
+			isa = PBXGroup;
+			children = (
+				AD0753BF291381B3000B6DC4 /* ArtopiaApp.swift */,
+				AD0753C1291381B3000B6DC4 /* ContentView.swift */,
+				AD0753CD291381FF000B6DC4 /* PintrestGrid.swift */,
+				AD0753CF29138290000B6DC4 /* BuyerSettings.swift */,
+				AD0753D7291382DB000B6DC4 /* Address.swift */,
+				AD0753DB291382F9000B6DC4 /* AddressModel.swift */,
+				AD0753D9291382E8000B6DC4 /* AddressPreviews.swift */,
+				AD0753D3291382B7000B6DC4 /* BuyerOrders.swift */,
+				AD0753D5291382CC000B6DC4 /* OrderList.swift */,
+				AD0753FA2913A7F3000B6DC4 /* LogOutForBuyer.swift */,
+				AD0753DD29138307000B6DC4 /* PrivacyPolicy.swift */,
+				AD0753E129138325000B6DC4 /* ContactUs.swift */,
+				AD0753E729138563000B6DC4 /* BackButton.swift */,
+				AD0753EB29139CDD000B6DC4 /* ArtistorVisitor.swift */,
+				AD0753F129139EB1000B6DC4 /* ContentViewforArtist.swift */,
+				AD0753EF29139DEF000B6DC4 /* ForEdArtistPage.swift */,
+				AD0753F529139FED000B6DC4 /* ArtistProfile.swift */,
+				AD0753D1291382A8000B6DC4 /* ArtistSettings.swift */,
+				AD0753F72913A1F2000B6DC4 /* ArtisttingMenu.swift */,
+				AD0753FC2913A900000B6DC4 /* SignInWithApple.swift */,
+				AD0753DF29138314000B6DC4 /* LogOut.swift */,
+				AD0754002913AD32000B6DC4 /* Wishlist.swift */,
+				AD0754022913AD4E000B6DC4 /* Cart.swift */,
+				A4C3A3D12914011500EC0B82 /* Done.swift */,
+				A4C3A3D32914045900EC0B82 /* payment.swift */,
+				AD0754082913D450000B6DC4 /* Checkout.swift */,
+				AD0754062913C91E000B6DC4 /* PaintingDescription.swift */,
+				AD0753C3291381B4000B6DC4 /* Assets.xcassets */,
+				AD0753C5291381B4000B6DC4 /* Preview Content */,
+				AD0753E92913954F000B6DC4 /* Tabs.swift */,
+				AD0753F329139FB0000B6DC4 /* Logo.swift */,
+			);
+			path = Artopia;
+			sourceTree = "<group>";
+		};
+		AD0753C5291381B4000B6DC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD0753C6291381B4000B6DC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD0753BB291381B3000B6DC4 /* Artopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0753CA291381B4000B6DC4 /* Build configuration list for PBXNativeTarget "Artopia" */;
+			buildPhases = (
+				AD0753B8291381B3000B6DC4 /* Sources */,
+				AD0753B9291381B3000B6DC4 /* Frameworks */,
+				AD0753BA291381B3000B6DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artopia;
+			productName = Artopia;
+			productReference = AD0753BC291381B3000B6DC4 /* Artopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD0753B4291381B3000B6DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AD0753BB291381B3000B6DC4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AD0753B7291381B3000B6DC4 /* Build configuration list for PBXProject "Artopia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD0753B3291381B3000B6DC4;
+			productRefGroup = AD0753BD291381B3000B6DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD0753BB291381B3000B6DC4 /* Artopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD0753BA291381B3000B6DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0753C7291381B4000B6DC4 /* Preview Assets.xcassets in Resources */,
+				AD0753C4291381B4000B6DC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD0753B8291381B3000B6DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0754092913D450000B6DC4 /* Checkout.swift in Sources */,
+				AD0753F429139FB0000B6DC4 /* Logo.swift in Sources */,
+				AD0753F229139EB1000B6DC4 /* ContentViewforArtist.swift in Sources */,
+				A4C3A3D22914011500EC0B82 /* Done.swift in Sources */,
+				AD0754032913AD4E000B6DC4 /* Cart.swift in Sources */,
+				A4C3A3D42914045900EC0B82 /* payment.swift in Sources */,
+				AD0753FF2913A94A000B6DC4 /* bg.swift in Sources */,
+				AD0753EC29139CDD000B6DC4 /* ArtistorVisitor.swift in Sources */,
+				AD0753EA2913954F000B6DC4 /* Tabs.swift in Sources */,
+				AD07540B2913DD51000B6DC4 /* Addtocart.swift in Sources */,
+				AD0753F629139FED000B6DC4 /* ArtistProfile.swift in Sources */,
+				AD0753FB2913A7F3000B6DC4 /* LogOutForBuyer.swift in Sources */,
+				AD0753C2291381B3000B6DC4 /* ContentView.swift in Sources */,
+				AD0753D6291382CC000B6DC4 /* OrderList.swift in Sources */,
+				AD0753DA291382E8000B6DC4 /* AddressPreviews.swift in Sources */,
+				AD0753C0291381B3000B6DC4 /* ArtopiaApp.swift in Sources */,
+				AD0753DC291382F9000B6DC4 /* AddressModel.swift in Sources */,
+				AD0753F82913A1F2000B6DC4 /* ArtisttingMenu.swift in Sources */,
+				AD0753D029138290000B6DC4 /* BuyerSettings.swift in Sources */,
+				AD0754012913AD32000B6DC4 /* Wishlist.swift in Sources */,
+				AD0753FD2913A900000B6DC4 /* SignInWithApple.swift in Sources */,
+				AD0753E829138563000B6DC4 /* BackButton.swift in Sources */,
+				AD0753D2291382A8000B6DC4 /* ArtistSettings.swift in Sources */,
+				AD0753D4291382B7000B6DC4 /* BuyerOrders.swift in Sources */,
+				AD0753D8291382DB000B6DC4 /* Address.swift in Sources */,
+				AD0753F029139DEF000B6DC4 /* ForEdArtistPage.swift in Sources */,
+				AD0753E229138325000B6DC4 /* ContactUs.swift in Sources */,
+				AD0753E029138314000B6DC4 /* LogOut.swift in Sources */,
+				AD0753CE291381FF000B6DC4 /* PintrestGrid.swift in Sources */,
+				AD0754072913C91E000B6DC4 /* PaintingDescription.swift in Sources */,
+				AD0753DE29138307000B6DC4 /* PrivacyPolicy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD0753C8291381B4000B6DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0753C9291381B4000B6DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0753CB291381B4000B6DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artopia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatma.art.Artopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0753CC291381B4000B6DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artopia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fatma.art.Artopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD0753B7291381B3000B6DC4 /* Build configuration list for PBXProject "Artopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0753C8291381B4000B6DC4 /* Debug */,
+				AD0753C9291381B4000B6DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0753CA291381B4000B6DC4 /* Build configuration list for PBXNativeTarget "Artopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0753CB291381B4000B6DC4 /* Debug */,
+				AD0753CC291381B4000B6DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD0753B4291381B3000B6DC4 /* Project object */;
+}
